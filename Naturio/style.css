@@ -549,7 +549,7 @@ font-size: 23px;
 }
 .footer{
     height: 410px;
-    background-image: url(/im01/footer-widgets-bg.jpg);
+    background-image: url(im01/footer-widgets-bg.jpg);
     /* position: relative; */
     width: 1200px;
     margin: auto;

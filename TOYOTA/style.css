@@ -48,3 +48,41 @@ display: flex;
     position: relative;
     z-index: 10;
 }
+.firstlayer{
+    position: relative;
+    background-color: rgb(184, 17, 17);
+    width: 290px;
+}
+
+.firstlayer .up{
+    display: flex;
+    /* flex-direction: column; */
+    border: 1px solid gold;
+    align-items: center;
+    justify-content: center; 
+    width: 200px;
+}    
+.firstlayer .number{
+    writing-mode: vertical-lr;
+    font-size: 80px;
+    width: 30px;
+    position: relative;
+    top: 1px;
+    left: 10px;
+    z-index: 3;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.firstlayer .uptxt{
+    position: relative;
+    top: -70px;
+    left: 70px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0px;
+    color: #ffffff;
+
+
+;
+}

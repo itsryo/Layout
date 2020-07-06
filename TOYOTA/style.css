@@ -1,0 +1,50 @@
+.str{
+    width: 1200px;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.strtitle h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.strtitle h1::after{
+content: "";
+width: 70px;
+height: 3px;
+background-color: red;
+}
+.strtxt{
+display: flex;
+}
+.strtxt .span05{
+    display: block;
+    display: flex;
+    margin: 15px;
+    border: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px dashed black;
+}
+.bannersq{
+    display: block;
+    background-image: url(TOYOTA-IMG/KV_BG.png);
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    
+}
+
+.bannerimg {
+    position: relative;
+    z-index: 10;
+}

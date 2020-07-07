@@ -1,10 +1,12 @@
 .str{
     width: 1200px;
+    margin: auto;
     text-align: center;
     line-height: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .strtitle h1{
     display: flex;
@@ -27,7 +29,7 @@ display: flex;
     border: transparent;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
-    width: 100px;
+    width: 190px;
     height: 35px;
     align-items: center;
     justify-content: center;
@@ -38,26 +40,39 @@ display: flex;
 .bannersq{
     display: block;
     background-image: url(TOYOTA-IMG/KV_BG.png);
-    width: 60px;
-    height: 60px;
-    text-align: right;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    left: 60%;
+    width: 400px;
+    height: 400px;
     
 }
 
 .bannerimg {
     position: relative;
-    z-index: 10;
+    z-index: 2;
+    margin-top: -190px;
+    margin-left: 130px;
+}
+.firstitems{
+    position: relative;
+    z-index: 3;
+    margin-top: -529px;
+    margin-left: 32px;
 }
 .firstlayer{
     position: relative;
     background-color: rgb(184, 17, 17);
-    width: 290px;
+    width: 300px;
+    height: 200px;
+    z-index: 1;
 }
 
 .firstlayer .up{
     display: flex;
     /* flex-direction: column; */
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     align-items: center;
     justify-content: center; 
     width: 200px;
@@ -82,7 +97,50 @@ display: flex;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 0px;
     color: #ffffff;
-
-
-;
+}
+.firstlayer .down{
+    width: 300px;
+    height: 180px;
+    line-height: 1.1;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #000000;
+    text-align: left;
+}
+.secondlayer{
+    position: relative;
+    z-index: 4;
+    background:whitesmoke;
+    text-align: left;
+    width: 750px;  
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px; 
+    margin-top: 270px;
+    left: -10px;
+}
+.secondlayer span{
+    background: #000;
+    color: #ffffff;
+    padding: 2px;
+}
+.secondlayer h3{
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.secondlayer h3::after{
+    content:"";
+    background-color: #ff0000;
+    width: 420px;
+    height: 1px;
+}
+.secondlayer p::before{
+    content: "⠂";
+    color: red;
 }

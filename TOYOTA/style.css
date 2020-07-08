@@ -400,3 +400,245 @@ display: flex;
     top: 220px;
     right:-30px;
 }
+.banner4{
+    position: relative;
+}
+.bannersq04{
+    display: block;
+    background-image: url(TOYOTA-IMG/KV_BG.png);
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.bannerimg04 {
+    position: relative;
+    z-index: 2;
+    margin-top: -300px;
+    margin-left: -250px;
+}
+.firstitems04{
+    position: relative;
+    z-index: 3;
+    margin-top: -528px;
+    margin-left: 500px;
+}
+.firstlayer04{
+    position: relative;
+    background-color: rgb(184, 17, 17);
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+}
+
+.firstlayer04 .up{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 1px solid gold; */
+    align-items: center;
+    justify-content: center; 
+    width: 200px;
+}    
+.firstlayer04 .number{
+    writing-mode: vertical-lr;
+    font-size: 80px;
+    width: 30px;
+    position: relative;
+    top: 1px;
+    left: 10px;
+    z-index: 3;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.firstlayer04 .uptxt{
+    position: relative;
+    top: -70px;
+    left: 70px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0px;
+    color: #ffffff;
+}
+.firstlayer04 .down{
+    width: 300px;
+    height: 180px;
+    line-height: 1.1;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #000000;
+    text-align: left;
+}
+.secondlayer04{
+    position: relative;
+    z-index: 4;
+    background:whitesmoke;
+    text-align: left;
+    width: 750px;  
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px 10px; 
+    margin-top: 285px;
+    left: 200px;
+    font-size: 12px;
+}
+.secondlayer04 span{
+    background: #000;
+    color: #ffffff;
+    padding: 2px;
+}
+.secondlayer04 h3{
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+}
+.secondlayer04 h3::after{
+    content:"";
+    background-color: #ff0000;
+    width: 550px;
+    height: 1px;
+}
+.secondlayer04 p {
+    font-size: 12px;
+}
+.secondlayer04 p::before{
+    content: "⠂";
+    color: red;
+}
+.banner4 .arrow{
+    position: absolute;
+    z-index: 5;
+    top: 300px;
+    left:-90px;
+}
+.banner5{
+    position: relative;
+}
+.bannersq{
+    display: block;
+    background-image: url(TOYOTA-IMG/KV_BG.png);
+    position: relative;
+    z-index: 1;
+    top: 70px;
+    left: 60%;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.bannerimg05 {
+    position: relative;
+    z-index: 2;
+    margin-top: -190px;
+    margin-left: 130px;
+}
+.firstitems05{
+    position: relative;
+    z-index: 3;
+    margin-top: -529px;
+    margin-left: 32px;
+}
+.firstlayer05{
+    position: relative;
+    background-color: rgb(184, 17, 17);
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+}
+
+.firstlayer05 .up{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 1px solid gold; */
+    align-items: center;
+    justify-content: center; 
+    width: 200px;
+}    
+.firstlayer05 .number{
+    writing-mode: vertical-lr;
+    font-size: 80px;
+    width: 30px;
+    position: relative;
+    top: 1px;
+    left: 10px;
+    z-index: 3;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.firstlayer05 .uptxt{
+    position: relative;
+    top: -70px;
+    left: 70px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0px;
+    color: #ffffff;
+}
+.firstlayer05 .down{
+    width: 300px;
+    height: 180px;
+    line-height: 1.1;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    top: -50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #000000;
+    text-align: left;
+}
+.secondlayer05{
+    position: relative;
+    z-index: 4;
+    background:whitesmoke;
+    text-align: left;
+    width: 750px;  
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px 10px; 
+    margin-top: 300px;
+    left: -10px;
+    font-size: 12px;
+}
+.secondlayer05 span{
+    background: #000;
+    color: #ffffff;
+    padding: 2px;
+}
+.secondlayer05 h3{
+    color: #ff0000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+}
+.secondlayer05 h3::after{
+    content:"";
+    background-color: #ff0000;
+    width: 550px;
+    height: 1px;
+}
+.secondlayer05 p {
+    font-size: 12px;
+}
+.secondlayer05 p::before{
+    content: "⠂";
+    color: red;
+}
+.banner5 .arrow{
+    position: absolute;
+    z-index: 5;
+    top: 220px;
+    right:-30px;
+}

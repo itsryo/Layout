@@ -1,4 +1,4 @@
-.str{
+.str {
     width: 1200px;
     margin: auto;
     text-align: center;
@@ -8,21 +8,25 @@
     align-items: center;
     justify-content: center;
 }
-.strtitle h1{
+
+.strtitle h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.strtitle h1::after{
-content: "";
-width: 70px;
-height: 3px;
-background-color: red;
+
+.strtitle h1::after {
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: red;
 }
-.strtxt{
-display: flex;
+
+.strtxt {
+    display: flex;
 }
-.strtxt .span05{
+
+.strtxt .span05 {
     display: block;
     display: flex;
     margin: 15px;
@@ -37,10 +41,12 @@ display: flex;
     background-color: #ffffff;
     border: 1px dashed black;
 }
-.banner1{
+
+.banner1 {
     position: relative;
 }
-.bannersq{
+
+.bannersq {
     display: block;
     background-image: url(TOYOTA-IMG/KV_BG.png);
     position: relative;
@@ -49,7 +55,7 @@ display: flex;
     left: 60%;
     width: 400px;
     height: 300px;
-    
+
 }
 
 .bannerimg {
@@ -58,13 +64,15 @@ display: flex;
     margin-top: -190px;
     margin-left: 130px;
 }
-.firstitems{
+
+.firstitems {
     position: relative;
     z-index: 3;
     margin-top: -529px;
     margin-left: 32px;
 }
-.firstlayer{
+
+.firstlayer {
     position: relative;
     background-color: rgb(184, 17, 17);
     width: 300px;
@@ -72,15 +80,16 @@ display: flex;
     z-index: 1;
 }
 
-.firstlayer .up{
+.firstlayer .up {
     display: flex;
     /* flex-direction: column; */
     /* border: 1px solid gold; */
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 200px;
-}    
-.firstlayer .number{
+}
+
+.firstlayer .number {
     writing-mode: vertical-lr;
     font-size: 80px;
     width: 30px;
@@ -92,7 +101,8 @@ display: flex;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.firstlayer .uptxt{
+
+.firstlayer .uptxt {
     position: relative;
     top: -70px;
     left: 70px;
@@ -101,7 +111,8 @@ display: flex;
     margin-left: 0px;
     color: #ffffff;
 }
-.firstlayer .down{
+
+.firstlayer .down {
     width: 300px;
     height: 180px;
     line-height: 1.1;
@@ -114,54 +125,66 @@ display: flex;
     background-color: #000000;
     text-align: left;
 }
-.secondlayer{
+
+.secondlayer {
     position: relative;
     z-index: 4;
-    background:whitesmoke;
+    background: whitesmoke;
     text-align: left;
-    width: 750px;  
+    width: 750px;
     height: 200px;
     box-sizing: border-box;
-    padding: 10px 10px; 
+    padding: 10px 10px;
     margin-top: 300px;
     left: -10px;
     font-size: 12px;
 }
-.secondlayer span{
+
+.secondlayer span {
     background: #000;
     color: #ffffff;
     padding: 2px;
 }
-.secondlayer h3{
+
+.secondlayer h3 {
     color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-size: 15px;
 }
-.secondlayer h3::after{
-    content:"";
+
+.secondlayer h3::after {
+    content: "";
     background-color: #ff0000;
+    display: block;
+    flex-grow: 1;
+    margin-left: 1em;
     width: 550px;
     height: 1px;
 }
+
 .secondlayer p {
     font-size: 12px;
 }
-.secondlayer p::before{
+
+.secondlayer p::before {
     content: "⠂";
     color: red;
 }
-.banner1 .arrow{
+
+.banner1 .arrow {
     position: absolute;
     z-index: 5;
     top: 220px;
-    right:-30px;
+    right: -30px;
 }
-.banner2{
+
+.banner2 {
     position: relative;
 }
-.bannersq02{
+
+.bannersq02 {
     display: block;
     background-image: url(TOYOTA-IMG/KV_BG.png);
     position: relative;
@@ -170,7 +193,7 @@ display: flex;
     left: 35%;
     width: 400px;
     height: 400px;
-    
+
 }
 
 .bannerimg02 {
@@ -179,13 +202,15 @@ display: flex;
     margin-top: -300px;
     margin-left: -250px;
 }
-.firstitems02{
+
+.firstitems02 {
     position: relative;
     z-index: 3;
     margin-top: -528px;
     margin-left: 500px;
 }
-.firstlayer02{
+
+.firstlayer02 {
     position: relative;
     background-color: rgb(184, 17, 17);
     width: 300px;
@@ -193,15 +218,16 @@ display: flex;
     z-index: 1;
 }
 
-.firstlayer02 .up{
+.firstlayer02 .up {
     display: flex;
     /* flex-direction: column; */
     /* border: 1px solid gold; */
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 200px;
-}    
-.firstlayer02 .number{
+}
+
+.firstlayer02 .number {
     writing-mode: vertical-lr;
     font-size: 80px;
     width: 30px;
@@ -213,7 +239,8 @@ display: flex;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.firstlayer02 .uptxt{
+
+.firstlayer02 .uptxt {
     position: relative;
     top: -70px;
     left: 70px;
@@ -222,7 +249,8 @@ display: flex;
     margin-left: 0px;
     color: #ffffff;
 }
-.firstlayer02 .down{
+
+.firstlayer02 .down {
     width: 300px;
     height: 180px;
     line-height: 1.1;
@@ -235,54 +263,63 @@ display: flex;
     background-color: #000000;
     text-align: left;
 }
-.secondlayer02{
+
+.secondlayer02 {
     position: relative;
     z-index: 4;
-    background:whitesmoke;
+    background: whitesmoke;
     text-align: left;
-    width: 750px;  
+    width: 750px;
     height: 200px;
     box-sizing: border-box;
-    padding: 10px 10px; 
+    padding: 10px 10px;
     margin-top: 285px;
     left: 200px;
     font-size: 12px;
 }
-.secondlayer02 span{
+
+.secondlayer02 span {
     background: #000;
     color: #ffffff;
     padding: 2px;
 }
-.secondlayer02 h3{
+
+.secondlayer02 h3 {
     color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-size: 15px;
 }
-.secondlayer02 h3::after{
-    content:"";
+
+.secondlayer02 h3::after {
+    content: "";
     background-color: #ff0000;
     width: 550px;
     height: 1px;
 }
+
 .secondlayer02 p {
     font-size: 12px;
 }
-.secondlayer02 p::before{
+
+.secondlayer02 p::before {
     content: "⠂";
     color: red;
 }
-.banner2 .arrow{
+
+.banner2 .arrow {
     position: absolute;
     z-index: 5;
     top: 300px;
-    left:-90px;
+    left: -90px;
 }
-.banner3{
+
+.banner3 {
     position: relative;
 }
-.bannersq{
+
+.bannersq {
     display: block;
     background-image: url(TOYOTA-IMG/KV_BG.png);
     position: relative;
@@ -291,7 +328,7 @@ display: flex;
     left: 60%;
     width: 400px;
     height: 300px;
-    
+
 }
 
 .bannerimg03 {
@@ -300,13 +337,15 @@ display: flex;
     margin-top: -190px;
     margin-left: 130px;
 }
-.firstitems03{
+
+.firstitems03 {
     position: relative;
     z-index: 3;
     margin-top: -529px;
     margin-left: 32px;
 }
-.firstlayer03{
+
+.firstlayer03 {
     position: relative;
     background-color: rgb(184, 17, 17);
     width: 300px;
@@ -314,15 +353,16 @@ display: flex;
     z-index: 1;
 }
 
-.firstlayer03 .up{
+.firstlayer03 .up {
     display: flex;
     /* flex-direction: column; */
     /* border: 1px solid gold; */
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 200px;
-}    
-.firstlayer03 .number{
+}
+
+.firstlayer03 .number {
     writing-mode: vertical-lr;
     font-size: 80px;
     width: 30px;
@@ -334,7 +374,8 @@ display: flex;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.firstlayer03 .uptxt{
+
+.firstlayer03 .uptxt {
     position: relative;
     top: -70px;
     left: 70px;
@@ -343,7 +384,8 @@ display: flex;
     margin-left: 0px;
     color: #ffffff;
 }
-.firstlayer03 .down{
+
+.firstlayer03 .down {
     width: 300px;
     height: 180px;
     line-height: 1.1;
@@ -356,54 +398,63 @@ display: flex;
     background-color: #000000;
     text-align: left;
 }
-.secondlayer03{
+
+.secondlayer03 {
     position: relative;
     z-index: 4;
-    background:whitesmoke;
+    background: whitesmoke;
     text-align: left;
-    width: 750px;  
+    width: 750px;
     height: 200px;
     box-sizing: border-box;
-    padding: 10px 10px; 
+    padding: 10px 10px;
     margin-top: 300px;
     left: -10px;
     font-size: 12px;
 }
-.secondlayer03 span{
+
+.secondlayer03 span {
     background: #000;
     color: #ffffff;
     padding: 2px;
 }
-.secondlayer03 h3{
+
+.secondlayer03 h3 {
     color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-size: 15px;
 }
-.secondlayer03 h3::after{
-    content:"";
+
+.secondlayer03 h3::after {
+    content: "";
     background-color: #ff0000;
     width: 550px;
     height: 1px;
 }
+
 .secondlayer03 p {
     font-size: 12px;
 }
-.secondlayer03 p::before{
+
+.secondlayer03 p::before {
     content: "⠂";
     color: red;
 }
-.banner3 .arrow03{
+
+.banner3 .arrow03 {
     position: absolute;
     z-index: 5;
     top: 220px;
-    right:-30px;
+    right: -30px;
 }
-.banner4{
+
+.banner4 {
     position: relative;
 }
-.bannersq04{
+
+.bannersq04 {
     display: block;
     background-image: url(TOYOTA-IMG/KV_BG.png);
     position: relative;
@@ -412,7 +463,7 @@ display: flex;
     left: 35%;
     width: 400px;
     height: 400px;
-    
+
 }
 
 .bannerimg04 {
@@ -421,13 +472,15 @@ display: flex;
     margin-top: -300px;
     margin-left: -250px;
 }
-.firstitems04{
+
+.firstitems04 {
     position: relative;
     z-index: 3;
     margin-top: -528px;
     margin-left: 500px;
 }
-.firstlayer04{
+
+.firstlayer04 {
     position: relative;
     background-color: rgb(184, 17, 17);
     width: 300px;
@@ -435,15 +488,16 @@ display: flex;
     z-index: 1;
 }
 
-.firstlayer04 .up{
+.firstlayer04 .up {
     display: flex;
     /* flex-direction: column; */
     /* border: 1px solid gold; */
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 200px;
-}    
-.firstlayer04 .number{
+}
+
+.firstlayer04 .number {
     writing-mode: vertical-lr;
     font-size: 80px;
     width: 30px;
@@ -455,7 +509,8 @@ display: flex;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.firstlayer04 .uptxt{
+
+.firstlayer04 .uptxt {
     position: relative;
     top: -70px;
     left: 70px;
@@ -464,7 +519,8 @@ display: flex;
     margin-left: 0px;
     color: #ffffff;
 }
-.firstlayer04 .down{
+
+.firstlayer04 .down {
     width: 300px;
     height: 180px;
     line-height: 1.1;
@@ -477,54 +533,63 @@ display: flex;
     background-color: #000000;
     text-align: left;
 }
-.secondlayer04{
+
+.secondlayer04 {
     position: relative;
     z-index: 4;
-    background:whitesmoke;
+    background: whitesmoke;
     text-align: left;
-    width: 750px;  
+    width: 750px;
     height: 200px;
     box-sizing: border-box;
-    padding: 10px 10px; 
+    padding: 10px 10px;
     margin-top: 285px;
     left: 200px;
     font-size: 12px;
 }
-.secondlayer04 span{
+
+.secondlayer04 span {
     background: #000;
     color: #ffffff;
     padding: 2px;
 }
-.secondlayer04 h3{
+
+.secondlayer04 h3 {
     color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-size: 15px;
 }
-.secondlayer04 h3::after{
-    content:"";
+
+.secondlayer04 h3::after {
+    content: "";
     background-color: #ff0000;
     width: 550px;
     height: 1px;
 }
+
 .secondlayer04 p {
     font-size: 12px;
 }
-.secondlayer04 p::before{
+
+.secondlayer04 p::before {
     content: "⠂";
     color: red;
 }
-.banner4 .arrow{
+
+.banner4 .arrow {
     position: absolute;
     z-index: 5;
     top: 300px;
-    left:-90px;
+    left: -90px;
 }
-.banner5{
+
+.banner5 {
     position: relative;
 }
-.bannersq{
+
+.bannersq {
     display: block;
     background-image: url(TOYOTA-IMG/KV_BG.png);
     position: relative;
@@ -533,7 +598,7 @@ display: flex;
     left: 60%;
     width: 400px;
     height: 300px;
-    
+
 }
 
 .bannerimg05 {
@@ -542,13 +607,15 @@ display: flex;
     margin-top: -190px;
     margin-left: 130px;
 }
-.firstitems05{
+
+.firstitems05 {
     position: relative;
     z-index: 3;
     margin-top: -529px;
     margin-left: 32px;
 }
-.firstlayer05{
+
+.firstlayer05 {
     position: relative;
     background-color: rgb(184, 17, 17);
     width: 300px;
@@ -556,15 +623,16 @@ display: flex;
     z-index: 1;
 }
 
-.firstlayer05 .up{
+.firstlayer05 .up {
     display: flex;
     /* flex-direction: column; */
     /* border: 1px solid gold; */
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 200px;
-}    
-.firstlayer05 .number{
+}
+
+.firstlayer05 .number {
     writing-mode: vertical-lr;
     font-size: 80px;
     width: 30px;
@@ -576,7 +644,8 @@ display: flex;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.firstlayer05 .uptxt{
+
+.firstlayer05 .uptxt {
     position: relative;
     top: -70px;
     left: 70px;
@@ -585,7 +654,8 @@ display: flex;
     margin-left: 0px;
     color: #ffffff;
 }
-.firstlayer05 .down{
+
+.firstlayer05 .down {
     width: 300px;
     height: 180px;
     line-height: 1.1;
@@ -598,47 +668,54 @@ display: flex;
     background-color: #000000;
     text-align: left;
 }
-.secondlayer05{
+
+.secondlayer05 {
     position: relative;
     z-index: 4;
-    background:whitesmoke;
+    background: whitesmoke;
     text-align: left;
-    width: 750px;  
+    width: 750px;
     height: 200px;
     box-sizing: border-box;
-    padding: 10px 10px; 
+    padding: 10px 10px;
     margin-top: 300px;
     left: -10px;
     font-size: 12px;
 }
-.secondlayer05 span{
+
+.secondlayer05 span {
     background: #000;
     color: #ffffff;
     padding: 2px;
 }
-.secondlayer05 h3{
+
+.secondlayer05 h3 {
     color: #ff0000;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-size: 15px;
 }
-.secondlayer05 h3::after{
-    content:"";
+
+.secondlayer05 h3::after {
+    content: "";
     background-color: #ff0000;
     width: 550px;
     height: 1px;
 }
+
 .secondlayer05 p {
     font-size: 12px;
 }
-.secondlayer05 p::before{
+
+.secondlayer05 p::before {
     content: "⠂";
     color: red;
 }
-.banner5 .arrow{
+
+.banner5 .arrow {
     position: absolute;
     z-index: 5;
     top: 220px;
-    right:-30px;
+    right: -30px;
 }

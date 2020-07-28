@@ -70,21 +70,20 @@
                             <div  class="h4 ">顏色</div>
                         </div>
                         <div class="col-6 col-md-6 ">
-                            <div onclick="glodImg()" class="item-color01 item border text-center pt-4 ">
+                            <div class="color item border text-center pt-4 ">
                                 <i style="color:	#FFDEAD" class="fas fa-circle fa-3x"></i>
-                                <p>金色</p>
                             </div>
                         </div>
                         <div class="col-6 col-md-6">
-                            <div onclick="silverImg()" class="item-color02 item border text-center pt-4">
+                            <div class="color item border text-center pt-4">
                                 <i style="color:#C0C0C0" class="fas fa-circle fa-3x"></i>.
-                                <p>銀色</p>
+                                
                             </div>
                         </div>
                         <div class="col-6 col-md-6 mt-3">
-                            <div onclick="grayImg()" class="item-color03 item border text-center pt-4 ">
+                            <div class="color item border text-center pt-4 ">
                                 <i style="color:#404040" class="fas fa-circle fa-3x "></i>
-                                <p>太空灰色</p>
+                                
                             </div>
                         </div>
                         <div class="col-6 col-md-6 mt-3">
@@ -98,20 +97,17 @@
                         <div class="col-12 col-md-12 mt-3">
                             <div class="h4">儲存裝置</div>
                         </div>
-                        <div id="storage-group" class="col-6 col-md-6">
-                            <div class="col-6 col-md-6">
-                                <input type="radio" name="" id="storagebtn32" value="32gb">
-                                <label for="storagebtn32" for="storagebtn32" onclick="functionstoragegb32()" class="ipad-storage01 item border text-center">
-                                    <div class="h6 mt-4 "></div>
-                                    <div class="price mb-4"></div>
-                                </label>
+                        <div class="col-6 col-md-6">
+                            <div onclick="displayStorage(32)" class="storage ipad-storage01 item border text-center">
+                                <div id="lowGb" class="h6 mt-4 ">32<small>GB</small><sup>1</sup></div>
+                                <div id="low-price" class="storage-price  mb-4"></div>
                             </div>
-                            <input type="radio" name="" id="storagebtn128" value="128gb">
-                            <div class="col-6 col-md-6">
-                                <label for="storagebtn128" onclick="functionstoragegb128()" class="ipad-storage02 item border text-center">
-                                    <div class="h6 mt-4 "></div>
-                                    <div class="price mb-4"></div>
-                                </label>
+                        </div>
+                            
+                        <div class="col-6 col-md-6">
+                            <div onclick="displayStorage(128)" class="storage ipad-storage02 item border text-center">
+                                <div id="highGb" class="h6 mt-4 ">128<small>GB</small><sup>1</sup></div>
+                                <div id="high-price" class="storage-price high-price mb-4"></div>
                             </div>
                         </div>
                         <!-- <div class="col-12 col-md-4">
@@ -127,17 +123,15 @@
                             <div class="h4">連線能力</div>
                         </div>
                         <div class="col-6 col-md-6">
-                            <input type="radio" name="" id="wifibtn" value="wifi">
-                            <div  class="ipad-wifi item border text-center">
-                                <div class="h6 mt-4 "></div>
-                                <div class="price mb-4"></div>
+                            <div  onclick="WifilowPrice()" class="wifi ipad-wifi item border text-center">
+                                <div class="h6 mt-4 ">WIFI</div>
+                                <div id="wifiLow" class="price mb-4"></div>
                             </div>
-                        </div>
-                        <input type="radio" name="" id="wifiplusbtn" value="wifiplus">
-                        <div class="col-6 col-md-6">
-                            <div  class="ipad-wifi-plus item border text-center">
-                                <div class="h6 mt-4"></div>
-                                <div class="price mb-4"></div>
+                        </div>        
+                        <div  class="col-6 col-md-6">
+                            <div onclick="WifihighPrice()"  class="wifi ipad-wifi-plus item border text-center">
+                                <div class="h6 mt-4">WIFI+連線能力</div>
+                                <div id="WifiHigh" class="price mb-4"></div>
                             </div>
                         </div>
                         <!-- <div class="col-12 col-md-4">
@@ -152,7 +146,6 @@
                         <div class="col-12 col-md-12 mt-3">
                             <div class="h4">價格試算</div>
                             <div class="total-price-calculation"></div>
-                            
                     </div>
                 </div>
             </div>
@@ -174,7 +167,7 @@
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"
         ></script>
-        <script src="apple.js">
+        <script src="Apple_IPAD.js">
 
         </script>
     </body>

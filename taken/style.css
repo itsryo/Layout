@@ -1,0 +1,22 @@
+.nav-link span img{
+    width: 15%;
+    vertical-align:center;
+}
+.naver-talk .nav-link::before{
+    content: " ";
+}
+.naver-talk .nav-link{
+    margin-left: px;
+    width: 122px;
+}
+.fish-rod .title {
+    display: flex;
+    justify-content: center;
+}
+.take-it-taken{
+    background-image: url(taken-img/subbnr_01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}

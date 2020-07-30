@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- 我要先抓到API JSON -->
+    <!-- 要用fetch() 或是AJAX   -->
+    <!-- JSON檔怎麼處裡?*(ipadJSON檔老師給我們後來放上github在抓下來 ) -->
+    <!-- 抓下來後要怎麼處裡? JSONPARSE()? -->
+    <!-- 要可以引用google Map  -->
+    <!-- googleMap: 方法(要引用google的JS) 要有可以顯示地圖的div(div #map)  -->
+    <!-- googleMap裡面標記是讀取經度以及緯度的所以我可以讓googlemap的經度緯度等於JSON物件的經緯度的值 -->
+    <!-- JSON檔內有口罩剩餘數量可以下判斷式假如IF(口罩數量 > 0 ) {帶一個function(將大於 0 的更改mark圖式 } -->
+        <!-- esle{帶另一個方法(將0的顯示另一個圖示)} -->
+    <!-- 在每個地圖上有標記藥局 -->
+    <!-- 標記顯示有貨或斷貨 -->
+<div id="map"></div>
+
+
+<script defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSqdYkSdxpxTgQeOlL9xvzzEk6Rcsyj9g  &callback=initMap">
+</script>
+    <script src="MaskMap.js"></script>
+</body>
+</html>

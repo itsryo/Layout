@@ -5,6 +5,7 @@ let startBtn = document.getElementById("start");
 let resetBtn = document.getElementById("reset");
 let showAnswerBtn = document.getElementById("showAnswer");
 // let numberInput = document.getElementById("numberInput");
+let result="";
 startBtn.innerText = "START";
 //點擊事件
 startBtn.addEventListener("click", get1A2BNumBer); //產生亂數

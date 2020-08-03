@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <button id="start" class=""></button>
-    <button id="reset" class=""></button>
-    <button id="showAnswer" class=""></button>
-    <input id="showAnswerInput" type="text" name=""  placeholder="Show Answer">
-    <input id="numberInput" type="text" name="" placeholder="key in your answer.. " >
-    <button id="submit" type="submit"></button>
-    <script src="02.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .btn {
+                /* border: 1px solid #666666; */
+                margin: auto;
+                width: 1200px;
+                display: flex;
+                justify-content: center;
+            }
+            .input-area{
+                margin: auto;
+                width: 1200px;
+                /* border: 1px solid salmon; */
+                display: flex;
+                justify-content: center;
+            }
+            input{margin: 10px;}
+            button {
+                margin: 10px;
+                height: 30px;
+            }
+            #start {
+                background-color: orange;
+                width: 150px;
+                height: 50px;
+                border: 1px solid blue;
+                color: #fff;
+                font-weight: 900;
+            }
+            #reset {
+                background-color: orange;
+                width: 150px;
+                height: 50px;
+                border: 1px solid blue;
+                color: #fff;
+                font-weight: 900;
+            }
+            #showAnswer {
+                background-color: orange;
+                width: 150px;
+                height: 50px;
+                border: 1px solid blue;
+                color: #fff;
+                font-weight: 900;
+            }
+            #submit{
+                background-color: orange;
+                border: 1px solid black;
+                font-weight: 600;
+                color: #fff;
+            }
+            .displayArea{
+                margin: auto;
+                width: 1200px;
+                display: flex;
+                justify-content: center;
+            }
+            #displayHistory {
+                margin: auto;
+                border: 1px solid gray;
+                width: 300px;
+                height: 500px;
+                margin-top: 5px;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="btn">
+            <button id="reset" class=""></button>
+            <button id="start" class=""></button>
+            <button id="showAnswer" class=""></button>
+        </div>
+        <div class="input-area">
+            <input id="showAnswerInput" type="text" name="" placeholder="Answer-Area"/>
+            <input id="numberInput" type="text" name="" onkeyup="this.value=this.value.replace(/\D/g,'')"
+            onafterpaste="this.value=this.value.replace(/\D/g,'')" onkeypress="showKeyPress()" placeholder="key in your answer.. "/>
+            <button id="submit" type="submit"></button>
+        </div>
+        <div class="displayArea">
+            <div id="displayHistory"></div>
+        </div>
+        
+        <script src="03.js"></script>
+    </body>
 </html>

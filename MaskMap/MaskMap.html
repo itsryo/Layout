@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css">
+        <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaYwGeG4RoGa2muwP7vTXhLmP2ddM1q2M&callback=initMap">
+    </script>
+        <title>Taiwan_Mask_Map</title>
+    </head>
+    <body>
+           <div class="container-fluid">
+                <div class="row h-100">
+                    <div class="col-3 col-lg-3 select-bar">
+                        <div class="area">
+                            <select class="selectCountry browser-default custom-select" >
+                                <option value="" style="display: none;">請選擇</option>
+                                <option value="台北市">台北市</option>
+                                <option value="新北市">新北市</option>
+                                <option value="桃園市">桃園市</option>
+                                <option value="新竹縣">新竹縣</option>
+                                <option value="新竹市">新竹市</option>
+                                <option value="苗栗縣">苗栗縣</option>
+                                <option value="台中市">台中市</option>
+                                <option value="南投縣">南投縣</option>
+                                <option value="彰化縣">彰化縣</option>
+                                <option value="雲林縣">雲林縣</option>
+                                <option value="嘉義市">嘉義市</option>
+                                <option value="嘉義縣">嘉義縣</option>
+                                <option value="台南市">台南市</option>
+                                <option value="高雄市">高雄市</option>
+                                <option value="屏東縣">屏東縣</option>
+                                <option value="花蓮縣">花蓮縣</option>
+                                <option value="宜蘭縣">宜蘭縣</option>
+                                <option value="基隆市">基隆市</option>
+                                <option value="澎湖縣">澎湖縣</option>
+                                <option value="金門縣">金門縣</option>
+                            </select>
+                            <select class="selectCountry browser-default custom-select" >
+                                <option value="" style="display: none;"></option>
+                            </select>
+                        </div>
+                        <div class="card-list">
+                            <!-- template樣板插入位置 -->
+                        </div>
+                    </div>
+                    <div class="col-9 col-lg-9 map-box">
+                        <div id="map" style="position: relative;overflow: hidden;">
+                        <div style="height: 100%;width: 100%;position:absolute;top: 0px;left: 0;background-color:burlywood">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <template id="card-template"></template>    
+    
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+        <script src="new.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input"> <button onclick="SaveData()" >SAVE</button>
+    <br>
+    <button onclick="LoadData()">Load</button>
+    <div id="text" >(這邊顯示)</div>
+    <script>
+        function SaveData(){
+            let temp = document.getElementById("input").value
+            localStorage.setItem('Name',temp)
+        }
+        function LoadData(){
+            let temp = localStorage.getItem('Name')
+            document.getElementById('text').innerText=temp
+        }
+        
+    </script>
+</body>
+</html>

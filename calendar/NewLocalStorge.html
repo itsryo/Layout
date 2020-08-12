@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="text" id="input" />
+        <button onclick="SaveData()">SAVE</button>
+        <br />
+        <button onclick="LoadData()">Load</button>
+        <div id="text">(這邊顯示)</div>
+        <script>
+            function SaveData() {
+                let temp = {
+                    Name: "Ryo",
+                    CName: "修逸",
+                    Color: "#adfaad",
+                };
+                //如果我的KEY一樣的時候他會去覆蓋掉原本的VALUE
+                //當我的存進去的東西為物件時他不會正常顯示他會顯示[object object]
+                //localStorage裡面的Value只能放字串String
+                localStorage.setItem("Name", JSON.stringify(temp));
+            }
+            function LoadData() {
+                let temp = JSON.parse(localStorage.getItem("Name"));
+                //加上JSONPARSE將原本進來的字串再一次轉成物件才可以LOAD到物件內的屬性
+                document.getElementById("text").innerText = temp.CName;
+                document.getElementById("text").style.color = temp.Color;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        var dateA = new Date () //NEW DATE不帶任何參數就是現在
+        var dateB = new Date(2020,7,5)// 參數 Y M D 月份 1月=> 0 8月=>7 月份從0開始
+        // var dateB = new Date(2020,-1,5) 2009 12
+        // var dateB = new Date(2020,-1,32)// 參數 Y M D 月份 1月=> 0 8月=>7 月份從0開始 2020 01 01
+        // var dateB = new Date(2020,-100,32)// 一直倒退計算回去
+        console.log(dateA)
+        console.log(dateB.getFullYear())//取得年分
+        console.log(dateB.getMonth())//取得月份 月份從零開始
+        console.log(dateB.getDate())//取得日期
+        console.log(dateB.getDay())//取得星期幾 禮拜天是0
+
+        console.log(new Date(2020,8,0).getDate()) //取1月有幾天
+        console.log(new Date(2020,8,1).getDay()) //取9月1號是禮拜幾
+
+
+    </script>
+</body>
+</html>
